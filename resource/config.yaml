@@ -1,0 +1,11 @@
+log:
+  logger-name: "daily_logger"
+  filename: "logs/daily.txt"
+  hour: 2
+  minute: 30
+
+server:
+  port: 13899
+  auth: "CBg8NHWVrHt7Kw7YvZ69RxyaDjqkjPpD"
+  resource-path: "./public/"
+  out-path: "./static/bottle/"
